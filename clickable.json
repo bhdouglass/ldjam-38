@@ -1,0 +1,7 @@
+{
+  "template": "pure",
+  "arch": "all",
+  "ignore": ["src", "node_modules", ".git"],
+  "kill": "webapp-container",
+  "prebuild": "gulp dist"
+}

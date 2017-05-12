@@ -8,16 +8,20 @@ function Palette(group, sfx, budget) {
     this.currentBioma = null;
     this.currentIcon = null;
 
+    console.log('buttons');
     this.buttons = {};
-    this.buttons.WATER = new Phaser.Button(group.game, 0, 0, 'palette',
+    this.buttons.WATER = new Phaser.Button(group.game, 10, 10, 'palette',
         this.selectBioma.bind(this, BIOMAS.WATER, 0), this, 0, 0, 0, 0);
-    this.buttons.DESERT = new Phaser.Button(group.game, 0, 36,
+
+    this.buttons.DESERT = new Phaser.Button(group.game, 10, 61,
         'palette', this.selectBioma.bind(this, BIOMAS.DESERT, 1), this, 1, 1,
         1, 1);
-    this.buttons.PLANTS = new Phaser.Button(group.game, 0, 72,
+
+    this.buttons.PLANTS = new Phaser.Button(group.game, 10, 112,
         'palette', this.selectBioma.bind(this, BIOMAS.PLANTS, 2), this, 2, 2, 2,
         2);
-    this.buttons.EMPTY = new Phaser.Button(group.game, 0, 108,
+
+    this.buttons.EMPTY = new Phaser.Button(group.game, 10, 163,
         'palette', this.selectBioma.bind(this, BIOMAS.EMPTY, 3), this, 3, 3, 3,
         3);
 

@@ -1,0 +1,15 @@
+{
+    "name": "terrartisan.bhdouglass",
+    "title": "Terrartisan",
+    "description": "Terrartisan game by Belen Albeza",
+    "architecture": "all",
+    "framework": "ubuntu-sdk-15.04.6",
+    "hooks": {
+        "terrartisan": {
+            "apparmor": "terrartisan.apparmor",
+            "desktop": "terrartisan.desktop"
+        }
+    },
+    "maintainer": "Brian Douglass <bhdouglass@gmail.com>",
+    "version": "1.0"
+}

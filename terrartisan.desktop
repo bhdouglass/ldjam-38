@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Terrartisan
+Exec=webapp-container --app-id="terrartisan" $@ dist/raw.html
+Icon=icon.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
